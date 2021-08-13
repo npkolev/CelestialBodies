@@ -1,10 +1,10 @@
-import http from 'http';
 import express from 'express';
-import logging from './server/config/logging';
-import config from './server/config/config';
-import mongoose from 'mongoose';
-import solarBodyRoutes from './server/routes/solarBodies';
 import helmet from 'helmet';
+import http from 'http';
+import mongoose from 'mongoose';
+import config from './config/config';
+import logging from './config/logging';
+import solarBodyRoutes from './routes/solarBodies';
 
 const NAMESPACE = 'Server';
 const app = express();

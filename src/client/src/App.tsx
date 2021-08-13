@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
 import axios from 'axios';
-import Header from './Components/Header';
-import ResultsList from './Components/ResultsList';
+import './App.css';
+import Header from './components/Header';
+import ResultsList from './components/ResultsList';
 import { Bodies } from './interfaces/types';
 
 const App: React.FC = () => {

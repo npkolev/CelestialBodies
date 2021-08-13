@@ -7,7 +7,7 @@ import {
 
 const Header: FC = () => {
   return (
-      <AppBar position="static">
+      <AppBar position="sticky">
         <Toolbar>
           <Typography variant="h6">Celestial bodies in the Solar system</Typography>
         </Toolbar>
